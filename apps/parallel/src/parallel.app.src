@@ -1,0 +1,12 @@
+{application, parallel,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { parallel_app, []}},
+  {env, []}
+ ]}.
